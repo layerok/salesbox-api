@@ -1,0 +1,31 @@
+{
+  "name": "layerok/salesbox-api",
+  "description": "Salesbox API",
+  "keywords": [
+    "Salesbox",
+    "Api"
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Layerok\\SalesboxApi\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Volodymyr Rudomanenko",
+      "email": "rudomanenkovladimir@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.3 || ^8.0",
+    "guzzlehttp/guzzle": "^7.0.1"
+  },
+  "require-dev": {
+    "laravel/pint": "^v1.1.0"
+  },
+  "scripts": {
+    "format": "vendor/bin/pint"
+  }
+}
