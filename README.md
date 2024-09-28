@@ -25,7 +25,7 @@ $api->createCategory();
 $api->deleteCategory();
 $api->deleteManyCategories();
 
-$apiV4 = new \App\Salesbox\SalesboxApiV4();
+$apiV4 = new \Layerok\SalesboxApi\SalesboxApiV4();
 
 // authenticated
 $apiV4->setAccessToken($api->getAccessToken()['data']['token']);

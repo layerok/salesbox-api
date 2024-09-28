@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Salesbox;
+namespace Layerok\SalesboxApi;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\HandlerStack;
